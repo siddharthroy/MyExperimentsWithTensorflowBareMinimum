@@ -13,5 +13,12 @@ Goal here is not to create high performing model, but to create various models i
 ***Experiment7_MNIST_createCNN:*** Building 2 layers of CNN N/W feeding into FC. 
 
 
+# Instruction to Visualize tensorflow graph in tensorboard
+Open CMD and follow type below:
 
+- cd <folder_path_of_the_tensorboard_log_dir><br>
+- activate <environment_name_in_which_tensorflow_installed><br>
+- tensorboard --logdir .<br>
+     >Notice the dot at last <br>
+     Now you will get a URL link. Copy & paste it in browser. Violla, tensorboard is visible now
  
