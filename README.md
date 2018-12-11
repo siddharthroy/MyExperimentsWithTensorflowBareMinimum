@@ -10,7 +10,8 @@ Goal here is not to create high performing model, but to create various models i
 ***Experiment4_DNN_simplify_using_MatMul:*** Now simplyfy DNN setup using Matmul <br><br>
 ***Experiment5_MNIST_usingDNN:*** MNIST digit classification using trivial DNN (still gave close to 90% accuracy, huh) <br><br>
 ***Experiment6_Weight_Sharing_simplistic:*** Understand how to reuse same filter for each stride in most simple & trivial setup <br><br>
-***Experiment7_MNIST_createCNN:*** Building 2 layers of CNN N/W feeding into FC. 
+***Experiment7_MNIST_createCNN:*** Building 2 layers of CNN N/W feeding into FC. Observe how kernels stride over all images.
+
 
 
 # Instruction to Visualize tensorflow graph in tensorboard
